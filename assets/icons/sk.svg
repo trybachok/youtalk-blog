@@ -1,0 +1,9 @@
+<svg width="104" height="48" viewBox="0 0 104 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1.5" y="1.5" width="101" height="45" rx="11.5" fill="#ffffff" stroke="#ffffff" stroke-width="3"/>
+  <path d="M13 1.5H52V46.5H13C6.65 46.5 1.5 41.35 1.5 35V13C1.5 6.65 6.65 1.5 13 1.5Z" fill="#2963A3"/>
+  <text x="10" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Sk</text>
+  <g stroke="#2963A3" stroke-width="2.2" stroke-linecap="round">
+    <ellipse cx="76" cy="24" rx="8" ry="20" transform="rotate(45 76 24)"/>
+    <ellipse cx="76" cy="24" rx="8" ry="20" transform="rotate(-45 76 24)"/>
+  </g>
+</svg>
