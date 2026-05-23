@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Статья YouTalk о тревоге, эмоциях и упражнениях для самопомощи.">
+    <title>Как не утонуть в тревоге — YouTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo" href="index.html" aria-label="YouTalk, главная страница">
+          <img class="header__logo-image" src="assets/icons/logo.svg" alt="YouTalk">
+        </a>
+
+        <nav class="nav header__nav" aria-label="Основная навигация">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Тарифы</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Для бизнеса</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Психологам</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Сертификат</a></li>
+            <li class="nav__item nav__item--has-menu">
+              <a class="nav__link nav__link--with-icon" href="#">
+                Материалы
+                <img class="nav__icon" src="assets/icons/chevron-down.svg" alt="" aria-hidden="true">
+              </a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <button class="button button--light header__cta" type="button">Подобрать психолога</button>
+        <button class="header__burger" type="button" aria-label="Открыть меню" aria-controls="mobile-menu" aria-expanded="false">
+          <img class="header__burger-icon header__burger-icon--open" src="assets/icons/menu.svg" alt="" aria-hidden="true">
+          <img class="header__burger-icon header__burger-icon--close" src="assets/icons/close.svg" alt="" aria-hidden="true">
+        </button>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden inert>
+        <a class="mobile-menu__link" href="#">О нас</a>
+        <a class="mobile-menu__link" href="#">Тарифы</a>
+        <a class="mobile-menu__link" href="#">Для бизнеса</a>
+        <a class="mobile-menu__link" href="#">Психологам</a>
+        <a class="mobile-menu__link" href="#">Сертификат</a>
+        <a class="mobile-menu__link" href="#">Материалы</a>
+        <a class="mobile-menu__link" href="#">FAQ</a>
+        <button class="button button--light mobile-menu__button" type="button">Подобрать психолога</button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="article-layout container">
+        <article class="article">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <ol class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Блог</a></li>
+              <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">Как не утонуть в тревоге</span></li>
+            </ol>
+          </nav>
+
+          <header class="article__header">
+            <h1 class="article__title title title--page">Как не утонуть в тревоге и управлять своими страхами</h1>
+            <p class="article__meta">Автор: Лиза Файнтух · <time datetime="2021-08-21">21.08.2021</time></p>
+            <img class="article__hero" src="assets/images/swim-hero-1380.jpg" srcset="assets/images/swim-hero-690.jpg 690w, assets/images/swim-hero-1380.jpg 1380w" sizes="(max-width: 1023px) calc(100vw - 40px), 690px" alt="Девушка спокойно плавает в бассейне">
+          </header>
+
+          <section class="article__section contents" aria-labelledby="contents-title">
+            <h2 class="contents__title" id="contents-title">Содержание</h2>
+            <ul class="contents__list">
+              <li><a href="#why">Почему тревога появляется</a></li>
+              <li><a href="#body">Что происходит с телом</a></li>
+              <li><a href="#practice">Упражнения, которые помогают вернуться в момент</a></li>
+              <li><a href="#support">Когда стоит обратиться за поддержкой</a></li>
+            </ul>
+          </section>
+
+          <section class="article__section" id="why">
+            <h2 class="article__subtitle">Почему тревога появляется</h2>
+            <p>Один из самых важных навыков, которые может дать работа с психотерапевтом — умение в разных ситуациях по-разному обходиться со своими эмоциями. Снять, отложить, предъявить, разделить, выдержать и дать им место.</p>
+            <p>Иногда тревога появляется как реакция на неопределённость. Нам хочется поскорее всё контролировать, но в этот момент полезнее не бороться с собой, а возвращать внимание к тому, что реально происходит здесь и сейчас.</p>
+          </section>
+
+          <blockquote class="quote article__quote">
+            <p>Мы делаем шаг навстречу себе, когда замечаем и признаём свои чувства, а не пытаемся немедленно их отключить.</p>
+          </blockquote>
+
+          <section class="article__section" id="body">
+            <h2 class="article__subtitle">Что еще можно делать с тревогой?</h2>
+            <p>Управлять не значит «не бояться». Важно уметь замечать тревогу, которая создаёт шум в информационном поле, и пробовать выбирать действия, которые возвращают ощущение опоры.</p>
+            <p>А ещё тревога может становиться привычным способом смотреть на мир. В такие моменты помогает маленькая проверка реальности: что я знаю точно, что предполагаю, а что могу уточнить?</p>
+            <figure class="article__figure">
+              <img class="article__image" src="assets/images/people-768.jpg" srcset="assets/images/people-384.jpg 384w, assets/images/people-768.jpg 768w" sizes="(max-width: 1023px) calc(100vw - 40px), 690px" alt="Люди идут по светлой лестнице">
+              <figcaption class="article__caption">Онлайн-сессия с психологом помогает разобраться, где заканчивается полезная осторожность и начинается изматывающая тревога.</figcaption>
+            </figure>
+          </section>
+
+          <p class="article__center-note">Чем чаще вы замечаете свои реакции и возвращаете себе право выбирать действие, тем меньше тревога управляет вашей жизнью автоматически.</p>
+
+          <section class="article__section article__section--media-text">
+            <img class="article__image" src="assets/images/hat-441.jpg" srcset="assets/images/hat-282.jpg 282w, assets/images/hat-441.jpg 441w" sizes="(max-width: 767px) calc(100vw - 40px), 282px" alt="Женщина в шляпе и солнцезащитных очках">
+            <div>
+              <p>Чем шире доступный вам репертуар реакций — тем более свободным вы можете быть в сложной ситуации. Это не значит всегда быть спокойным. Иногда достаточно распознать напряжение и сделать паузу.</p>
+              <p>Подумайте, какие способы поддержки уже работают: прогулка, разговор, дыхание, контакт с телом, запись мыслей или обращение к специалисту.</p>
+            </div>
+          </section>
+
+          <section class="exercise article__section" id="practice">
+            <h2 class="exercise__title">Упражнение #1</h2>
+            <p>Нужно последовательно напрячь и расслабить каждую мышцу в теле на несколько секунд. Напрягайте плечи, руки, живот, ноги, лицо, затем отпускайте напряжение и отмечайте разницу в ощущениях.</p>
+          </section>
+
+          <section class="article__section" id="support">
+            <h2 class="article__subtitle">Что еще можно делать с тревогой?</h2>
+            <p>Управлять не значит «не бояться». Важно замечать тревогу, которая создаёт шум, и постепенно возвращать себе возможность выбирать, как поступить дальше.</p>
+            <p>В моменты тревоги можно задавать себе простые вопросы: что со мной происходит, чего я боюсь, что я могу сделать сейчас и какая поддержка мне доступна.</p>
+          </section>
+
+          <section class="article__section article__section--media-text">
+            <img class="article__image" src="assets/images/hands-562.jpg" srcset="assets/images/hands-281.jpg 281w, assets/images/hands-562.jpg 562w" sizes="(max-width: 767px) calc(100vw - 40px), 281px" alt="Две руки держатся вместе">
+            <div>
+              <p>Чем шире доступный вам репертуар реакций, тем легче выбирать действие, которое действительно поддержит, а не усилит напряжение.</p>
+              <p>Иногда поддержка другого человека помогает быстрее вернуть ощущение безопасности и увидеть ситуацию яснее.</p>
+            </div>
+          </section>
+
+          <section class="exercise exercise--warm article__section">
+            <h2 class="exercise__title">Упражнение #2</h2>
+            <p>Напишите тревожную мысль и рядом сформулируйте более реалистичную версию. Не обязательно убеждать себя, что всё идеально. Достаточно добавить факты, поддержку и конкретный следующий шаг.</p>
+          </section>
+
+          <section class="article__section article__section--split">
+            <div>
+              <img class="article__image" src="assets/images/chair-441.jpg" srcset="assets/images/chair-333.jpg 333w, assets/images/chair-441.jpg 441w" sizes="(max-width: 767px) calc(100vw - 40px), 333px" alt="Стул с книгами и растением">
+              <p>Чем шире доступный вам репертуар действий, тем меньше тревога занимает всё пространство внимания.</p>
+            </div>
+            <div>
+              <img class="article__image" src="assets/images/sunset-445.jpg" srcset="assets/images/sunset-333.jpg 333w, assets/images/sunset-445.jpg 445w" sizes="(max-width: 767px) calc(100vw - 40px), 333px" alt="Силуэт человека у воды на закате">
+              <p>Маленькие ритуалы восстановления помогают не спорить с эмоциями, а выдерживать их спокойнее.</p>
+            </div>
+          </section>
+
+          <section class="exercise exercise--mint article__section">
+            <h2 class="exercise__title">Упражнение #3</h2>
+            <p>Назовите три вещи, которые видите, два звука, которые слышите, и одно действие, которое можете сделать прямо сейчас. Это помогает вернуться в настоящий момент.</p>
+          </section>
+
+          <section class="related article__section" aria-labelledby="related-title">
+            <h2 class="visually-hidden" id="related-title">Темы статьи</h2>
+            <div class="related__grid">
+              <a class="related__link" href="#">Self</a>
+              <a class="related__link" href="#">Самооценка и самопринятие</a>
+              <a class="related__link" href="#">Самооценка и принятие</a>
+              <a class="related__link" href="#">Тревога</a>
+            </div>
+          </section>
+
+          <section class="problem-cta" aria-labelledby="problem-title">
+            <div class="problem-cta__content">
+              <h2 class="problem-cta__title" id="problem-title">Откликается проблема?</h2>
+              <p class="problem-cta__text">Поможем подобрать специалиста по работе с подобным запросом</p>
+              <button class="button button--primary problem-cta__button" type="button">Подобрать психолога</button>
+            </div>
+            <img class="problem-cta__image" src="assets/images/problem-people.png" alt="Психолог беседует с клиенткой">
+          </section>
+        </article>
+
+        <aside class="sidebar" aria-label="Дополнительные материалы">
+          <section class="sidebar-card sidebar-card--blue">
+            <img class="sidebar-card__image" src="assets/images/sidebar-people.png" alt="Иллюстрация с людьми">
+            <h2 class="sidebar-card__title">Загрузка свободных окошек</h2>
+            <p class="sidebar-card__text">Все в порядке, мы уже подбираем психолога под ваш запрос.</p>
+            <button class="button button--primary sidebar-card__button" type="button">Подробнее</button>
+          </section>
+
+          <section class="psychologist-card">
+            <img class="psychologist-card__photo" src="assets/images/psychologist-200.jpg" srcset="assets/images/psychologist-120.jpg 120w, assets/images/psychologist-200.jpg 200w" sizes="120px" alt="Психолог Лилия">
+            <p class="psychologist-card__badge">Переписка</p>
+            <p class="psychologist-card__badge psychologist-card__badge--video">Видео</p>
+            <h2 class="psychologist-card__name">Лилия</h2>
+            <p class="psychologist-card__role">Психолог</p>
+            <p class="psychologist-card__meta">Опыт 6 лет · 43 года</p>
+            <h3 class="psychologist-card__subtitle">С чем работает психолог</h3>
+            <ul class="psychologist-card__list">
+              <li>Тревога, страхи</li>
+              <li>Самооценка</li>
+              <li>Отношения</li>
+            </ul>
+            <button class="button button--primary psychologist-card__button" type="button">Подробнее</button>
+          </section>
+
+          <section class="sidebar-card sidebar-card--gift">
+            <h2 class="sidebar-card__title sidebar-card__title--gift">Дарите заботу</h2>
+            <p class="sidebar-card__text">Сертификат на консультацию с психологом.</p>
+            <img class="sidebar-card__gift" src="assets/images/gift-large.png" alt="Подарочная коробка">
+          </section>
+
+          <section class="price-card">
+            <h2 class="price-card__title">8 Видео сессий</h2>
+            <p class="price-card__text">Проработать небольшие проблемы и продвинуться в решении сложных запросов.</p>
+            <p class="price-card__price">18 500 ₽</p>
+            <button class="button button--primary" type="button">Купить</button>
+            <img class="price-card__gift price-card__gift--left" src="assets/images/figma-19-246x219-5657fe240477.png" alt="" aria-hidden="true">
+            <img class="price-card__gift price-card__gift--right" src="assets/images/figma-20-206x197-c71a2bd879ab.png" alt="" aria-hidden="true">
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner container">
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <ul class="footer__nav-list">
+            <li><a class="footer__link" href="#">О нас</a></li>
+            <li><a class="footer__link" href="#">Тарифы</a></li>
+            <li><a class="footer__link" href="#">Для бизнеса</a></li>
+            <li><a class="footer__link" href="#">Психологам</a></li>
+            <li><a class="footer__link" href="#">FAQ</a></li>
+          </ul>
+          <ul class="footer__nav-list">
+            <li><a class="footer__link" href="index.html">Блог</a></li>
+            <li><a class="footer__link" href="#">Вебинары</a></li>
+            <li><a class="footer__link" href="#">Подкаст</a></li>
+            <li><a class="footer__link" href="#">Сертификат</a></li>
+            <li><a class="footer__link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <section class="subscribe footer__subscribe" aria-labelledby="subscribe-title">
+          <h2 class="subscribe__title" id="subscribe-title">Одно письмо в неделю со свежими новостями и акциями</h2>
+          <form class="subscribe__form">
+            <label class="visually-hidden" for="email">Email</label>
+            <input class="subscribe__input" id="email" type="email" name="email" placeholder="Ваш e-mail" required>
+            <button class="subscribe__button" type="submit" aria-label="Подписаться">
+              <img src="assets/icons/send.svg" alt="" aria-hidden="true">
+            </button>
+          </form>
+          <p class="subscribe__note">Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ.</p>
+        </section>
+
+        <section class="footer__social" aria-label="Социальные сети">
+          <p class="footer__partner">Участник <span>Сколково</span></p>
+          <ul class="social">
+            <li><a class="social__link" href="#" aria-label="ВКонтакте">VK</a></li>
+            <li><a class="social__link" href="#" aria-label="Telegram">TG</a></li>
+            <li><a class="social__link" href="#" aria-label="Twitter">TW</a></li>
+          </ul>
+        </section>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">&copy;Youtalk, 2018-2022</p>
+          <a class="footer__document" href="#">Юридические документы</a>
+          <a class="footer__document" href="#">Способы оплаты</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
