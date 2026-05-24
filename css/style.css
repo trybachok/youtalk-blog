@@ -99,7 +99,7 @@ input:focus-visible {
 }
 
 .button--light {
-  color: #03b2a5;
+  color: #006f66;
   background-color: #e3f5f5;
 }
 
@@ -110,11 +110,11 @@ input:focus-visible {
 .button--primary {
   min-width: 182px;
   color: #ffffff;
-  background-color: var(--color-primary);
+  background-color: #007f75;
 }
 
 .button--primary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: #006f66;
 }
 
 .title {
@@ -477,9 +477,9 @@ input:focus-visible {
 }
 
 .article-layout__decor--circle {
-  top: 1520px;
+  top: 2900px;
   right: calc((100% - 100vw) / 2);
-  width: clamp(154px, 15.14vw, 218px);
+  width: 120px;
   height: auto;
 }
 
@@ -527,7 +527,7 @@ input:focus-visible {
 
 .article__caption {
   margin: 0;
-  color: #868686;
+  color: #595959;
   font-size: 14px;
   line-height: 1.3;
 }
@@ -1023,7 +1023,7 @@ input:focus-visible {
   background-image: url("../assets/images/gift-card-bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .sidebar-card__title--gift {
@@ -1079,14 +1079,14 @@ input:focus-visible {
 }
 
 .price-card__gift--left {
-  right: 52px;
-  bottom: -2px;
+  right: 5px;
+  bottom: -20px;
   width: 112px;
 }
 
 .price-card__gift--right {
-  right: -14px;
-  bottom: 0;
+  right: -30px;
+  bottom: -40px;
   width: 104px;
 }
 
