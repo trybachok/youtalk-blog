@@ -1167,6 +1167,11 @@ input:focus-visible {
   background-color: var(--color-primary-dark);
 }
 
+.subscribe__button img {
+  width: 24px;
+  height: 24px;
+}
+
 .subscribe__note {
   max-width: 486px;
   margin: 0;
